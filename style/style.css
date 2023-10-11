@@ -1,0 +1,156 @@
+/* this is a style of parspack 
+developer : amirrezaMirzakhani  */
+/* font :iranYekan */
+@import url('https://v1.fontapi.ir/css/Yekan');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Yekan",sans-serif, tahoma;
+}
+header,section , footer{
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1200px;
+}
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+}
+.list-sell{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.list-sell li{
+    padding: 10px 20px;
+    color: RGB(153, 153, 153);
+    cursor: pointer;
+}
+.list-sell li:hover{
+    color: RGB(40, 142, 217);
+}
+.header-left button{
+    margin:0 5px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color:rgb(40, 142, 217);
+    font-size: 15px;
+    cursor: pointer;
+}
+.header-left .login{
+    background-color:rgb(40, 142, 217);
+    border: 1px solid rgb(40, 142, 217);
+    color: white;
+    padding: 0 10px;
+    border-radius:30px ;
+}
+/* header bottum */
+.header-bottum{
+    display: flex;
+    align-items: center;
+}
+.bottum-right-menu{
+    
+    width: 40%;
+    margin-top: 50px;
+}
+.topping{
+    color: rgb(40, 142, 217);
+    margin: 50px 0 10px;
+}
+.desc{
+    color: rgb(40, 142, 217);
+    margin-bottom: 10px;
+}
+.info{
+    color: #647473bd;
+    text-align: justify;
+}
+.bottum-left-menu{
+    padding-right: 10px;
+    width: 60%;
+    font-size: 10px;
+}
+/* section */
+.host-list-container{
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);
+}
+.host-h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.host-list{
+    display: flex;
+    margin-top: 100px;
+}
+.host-info{
+    width: 300px;
+    padding: 10px 20px;
+    text-align: justify;
+    border-left: 1px solid #7e7e7e;
+    color: #595959;
+    position: relative;
+}
+.host-info p{
+    font-size: 12px;
+}
+.host-h1-list{
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: rgb(40, 142, 217);
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    position: absolute;
+    margin: auto;
+    right:0;
+    left: 0;
+    top: -50px;
+    cursor: pointer;
+}
+/* feacher style */
+.feacher{
+    margin-top: 100px;
+}
+.feacher-bag{
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.feacher-right{
+    width: 50%;
+}
+.feacher-topping{
+    padding: 20px  0;
+    color: rgb(40, 142, 217);
+}
+.feacher-desc{
+
+}
+.feacher-left{
+    width: 50%;
+    padding: 10px 30px;
+}
+.feacher-bag:nth-child(odd){
+    flex-direction: row-reverse;
+}
+/* footer */
+.footer-bag{
+    text-align: center;
+    padding: 50px 0;
+    color: #b8b2b2;
+}
+.footer-social-icon i{
+    font-size: 25px ;
+    padding: 10px;
+}
